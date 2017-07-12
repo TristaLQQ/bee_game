@@ -1,0 +1,64 @@
+@charset "utf-8";
+		*{
+				margin:0;
+			  padding:0;
+			}
+			li{list-style: none;}
+			#div1{
+				position:relative;
+				width:800px;
+				height:600px;
+				overflow: hidden;
+				background-color: black;
+				margin:20px auto;
+			}
+			#gameBtn{
+				position: absolute;
+				top:285px;
+				left:350px;
+				color:white;
+				font-size:20px;
+				cursor: pointer;
+				border:1px solid #FFFFFF;
+				width:100px;
+				height:30px;
+				line-height: 30px;
+				text-align:center;
+			}
+			#score{color:#FFFFFF;font-size: 20px;}
+			/*装蜜蜂的盒子ul*/
+			#bee{position:relative;}
+			/*三种类型的敌人蜜蜂*/
+			.enemy1{
+				width:40px;
+				height:28px;
+				background:url(../img/mf1.png) no-repeat;
+				float: left;
+			}
+			.enemy2{
+				width:40px;
+				height:28px;
+				background:url(../img/mf2.png) no-repeat;
+				float: left;
+			}
+			.enemy3{
+				width:40px;
+				height:28px;
+				background:url(../img/mf3.png) no-repeat;
+				float: left;
+			}
+			/*飞机的样式*/
+			.air1{
+				position:absolute;
+				width:46px;
+				height:60px;
+				background: url(../img/fj.png) no-repeat;
+			}
+			/*子弹的样式*/
+			.bullet{
+				position:absolute;
+				width:1px;
+				height:10px;
+				overflow: hidden;
+			 background: white;
+			}
